@@ -23,10 +23,10 @@ export default function Index() {
        >
         <Animated.View entering={FadeInDown.delay(100).springify()} className="flex items-center">
             <Text style={{fontSize: hp(5)}} className="text-white font-bold tracking-wide">
-                Melhores <Text className="text-rose-500">Treinos</Text>
+                Best <Text className="text-rose-500">Workouts</Text>
             </Text>
             <Text style={{fontSize: hp(5)}} className="text-white font-bold tracking-wide">
-                Para Você
+                For You
             </Text>
         </Animated.View>
 
@@ -37,7 +37,7 @@ export default function Index() {
                 className="bg-rose-500 flex items-center justify-center mx-auto rounded-full border-[2px] border-neutral-200"
             >
                 <Text style={{fontSize: hp(3)}} className="text-white font-bold tracking-widest">
-                    Iniciar
+                    Get Started
                 </Text>
             </TouchableOpacity>
         </Animated.View>
